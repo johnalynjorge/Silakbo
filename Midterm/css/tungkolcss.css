@@ -1,0 +1,85 @@
+@font-face {
+    font-family: "made sunflower";
+    src: url(fonts/madesunflower.otf)  format("opentype");
+}
+@font-face {
+    font-family: "lucida fax";
+    src: url(fonts/lucidafax.ttf)  format('truetype');
+}
+body{
+    background-image: url(https://s34506.pcdn.co/wp-content/uploads/2018/02/ariel.pastawreath.done1_.690.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: "lucida fax";
+    color: #5a753b  ;
+}
+#top{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.a h1{
+    margin-top: 60px;
+    text-align: center;
+    color: #5a753b;
+    font-size: 80px;
+    margin-bottom: 100px;
+    font-family: "made sunflower";
+}
+.b h2{
+    text-align: center;
+    color: #5a753b;
+    font-size: 50px;
+}
+.c p{
+    text-align: center;
+    color: #5a753b;
+    font-size: 30px;
+    margin-bottom: 200px;
+}
+.d p{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.e p{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.f p{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.g p{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+.h p{
+    text-align: center;
+    color: black;
+    font-size: 25px;
+    margin-bottom: 200px;
+}
+@media only screen and (max-width: 1000px) {
+    .a h1{
+        font-size: 50px;
+    }
+    .b h2{
+        font-size: 30px;
+    }
+    .d p, .e p, .f p, .g p, .h p{
+        font-size: 20px;
+    }
+    .c p{
+        font-size: 25px;
+    }
+}

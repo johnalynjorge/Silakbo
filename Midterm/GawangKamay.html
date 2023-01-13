@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Gawang Kamay (DIY)</title>
+        <link rel="icon" href="images/Logo.png">
+        <link rel="stylesheet" href="css/gawangkamaycss.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div style="display: flex; flex-direction: column;">
+            <div id="top">
+            </div>
+            <div class="divider">
+                <p id="page-title">GAWANG KAMAY</p>
+                <p class="sub">MGA PRODUKTONG LIKHANG SINING NANG MGA PILIPINONG KAMAY PARA SA 
+                    BAYAN AT KINABUKASAN.
+                </p>
+            </div>
+            <div style="display:flex; justify-content: center; padding: 10px;">
+                <div id="categories">  
+                </div>
+                <div id="contents">
+                    <div class="content-products">
+                        <div class="products">
+                            <img src="images/Homemade-bodywash.jpg" class="product-image">
+                            <p class="product-name">ESSENTIAL OIL</p>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                        <div class="products">
+                            <img src="images/handmadesoap-e1633368093600.jpg" class="product-image">
+                            <p class="product-name">HAND-MADE SOAP</p>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                        <div class="products">
+                            <img src="images/8511157913_c6e6cdd963_z.jpg" class="product-image">
+                            <p class="product-name">MOUTHWASH</p>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="content-products">
+                        <div class="products">
+                            <img src="images/Wine-bottle-chandelier.png" class="product-image">
+                            <p class="product-name">GLASS BOTTLE LAMPS</p>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                        <div class="products">
+                            <img src="images/Coaster-DIY--1574928856-1024x1024.jpg" class="product-image">
+                            <p class="product-name">DRINK COASTERS</p>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                        <div class="products">
+                            <img src="images/Fabric-And-Lace-Bow-Tote.jpg" class="product-image">
+                            <p class="product-name">TOTE BAGS</p>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="content-products">
+                        <div class="products">
+                            <img src="images/unicef-market.jpg" class="product-image">
+                            <p class="product-name">CROCHET</p>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                        <div class="products">
+                            <img src="images/gifts-giving-back-update-5.jpg" class="product-image">
+                            <p class="product-name">HAT</p>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                        <div class="products">
+                            <img src="images/toms-dia-de-los-muertos-leather-wrap.jpg" class="product-image">
+                            <p class="product-name">SHOES</p>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function(){
+            $("#categories").load("sidebar.html"); 
+            });
+            $(document).ready(function(){
+            $("#top").load("header.html"); 
+            });
+        </script>
+    </body>
+</html>

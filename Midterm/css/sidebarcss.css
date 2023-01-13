@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "made sunflower";
+    src: url(fonts/madesunflower.otf)  format("opentype");
+}
+@font-face {
+    font-family: "lucida fax";
+    src: url(fonts/lucidafax.ttf)  format('truetype');
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+#category-title{
+    font: italic 20px "lucida fax";
+    color: #5a753b;
+    font-weight : bold;
+}
+.dropdown-container{
+    display: flex;
+    flex-direction: column;
+}
+.fa-caret-down {
+    float: right;
+    padding-right: 8px;
+    color: #5a753b;
+}
+.dropdown-container>a{
+    text-decoration: none;
+    color: #5a753b;
+    margin-left: 30px;
+    padding: 5px;
+    font-style: italic;
+}
+.dropdown-btn{
+    border: none;
+    text-align: left;
+    width: 400px;
+    background-color: white;
+    font: italic 20px "lucida fax";
+    color: #5a753b;
+    font-weight : bold;
+    padding: 10px;
+    cursor: pointer;
+}

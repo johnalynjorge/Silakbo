@@ -1,0 +1,90 @@
+@font-face {
+    font-family: "made sunflower";
+    src: url(fonts/madesunflower.otf)  format("opentype");
+}
+@font-face {
+    font-family: "lucida fax";
+    src: url(fonts/lucidafax.ttf)  format('truetype');
+}
+body{
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+}
+#top{
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+.divider{
+    width: 100%; 
+    padding: 20px;
+    display: flex; 
+    text-align: center;
+    flex-direction: column;
+    border-bottom: 3px solid #5a753b;
+}
+#page-title{
+    padding-top: 10px;
+    margin: 0;
+    color: #5a753b;
+    font: 60px "made sunflower"
+}
+.sub{
+    color: #5a753b;
+    font: italic 20px "lucida fax";
+    margin: 0;
+}
+.column{
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contents{
+    text-align: center;
+    margin: 20px;
+    padding: 10px;
+}
+.body-image{
+    width: 450px;
+    height: 450px;
+    padding: 10px;
+    object-fit: cover;
+    border: 3px solid #5a753b;
+}
+.product-name{
+    font: bold 40px "made sunshine";
+    margin: 5px;
+    padding: 0;
+    color: #5a753b;
+} 
+.sub-product{
+    font: italic 20px "lucida fax";
+    padding: 0;
+    margin: 0;
+    color: #5a753b;
+}
+.cart{
+    font: 20px "lucida fax";
+    padding: 10px;
+    color: white;
+    text-align: center;
+    border: none;
+    width: 100%;
+    background-color: #5a753b;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    cursor: pointer;
+    outline: 3px solid #5a753b;
+    outline-offset: 3px;
+}
+@media only screen and (max-width: 1000px) {
+    .contents, .column{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+    }
+    }
