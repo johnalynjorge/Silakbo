@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head> 
+        <title>Home</title>
+        <link rel="icon" href="images/Logo.png">
+        <link rel="stylesheet" href="css/homecss.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    </head>
+    <body> 
+        <div style="display: flex; flex-direction: column;">
+        <div id="top">
+        </div>
+        <div id="news-container" style="background-image: url(images/PH_Student_Inventor_Wins_Award_for_Solar_Windows_Made_from_Rotten-2-1.jpg); 
+            display: flex; justify-content: flex-end; height: 1000px; width: 100%; background-repeat: no-repeat; background-size: cover; align-items: center; margin-top: -20px;">
+            <div class="news">
+                <p id="upper-news">LATEST NEWS</p>
+                <p id="news-title">VEGETARIAN<br> WINDOWS!</p>
+                <p id="news-details">An invention made from rotten fruits and vegetables can be applied on windows to produce electricity. Invented by 27-year-old engineering student Carvey Ehren Maigue, from the Mapua University in Manila. 
+                </p>
+                <br>
+                <p id="last-news">See more...</p>
+            </div>
+        </div>
+        <div style="display: flex; align-items: center; justify-content: center;" class="mission-vision">
+            <div style="background-image: url(images/Gentle-Hands-2-min.jpg); background-repeat: no-repeat; background-size: cover; width: 100%; height: 700px; opacity: 0.8;"> 
+                <div class="container">
+                    <p class="container-title">VISION</p>
+                    <p class="container-content" style="padding-top: 30px;">MABIGYAN PANSIN ANG OBRANG MAKIKITA NATIN SA PALIGID AT BAWAT TAONG MAKAKASALAMUHA. HUGUTIN ANG LIKHA'T 
+                    GAWA NANG KAMAY, MULA SA BASURA, AT PANG-BAYAN.</p>
+                </div>
+            </div>
+            <div style="background-image: url(images/recycled-bottle-cap-crafts-for-kids.jpg); background-repeat: no-repeat; background-size: cover; width: 100%; height: 700px;opacity: 0.8;"> 
+                <div class="container">
+                    <p class="container-title">MISSION</p>
+                    <p class="container-content">MANALAYTAY ANG OBRA SA BAWA'T TAHANAN AT PUSO NANG PILIPINO. MABIGYANG PAGASA ANG MGA NAKALIGTAAN 
+                    SA PAMAMAGITAN NANG SINING. LAHAT AY MAY KAKAYANAN, LAHAT AY MAY MAIIAMBAG, BAWAT MAMAYANAN, MANLILIKHA</p>
+                </div>
+            </div>
+        </div>
+        </div>
+        <script>
+            $(document).ready(function(){
+            $("#top").load("header.html"); 
+            });
+        </script>
+    </body>
+</html>

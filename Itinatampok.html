@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Itinatampok (Featured Products)</title>
+        <link rel="icon" href="images/Logo.png">
+        <link rel="stylesheet" href="css/itinatampokcss.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <div style="display: flex; flex-direction: column;">
+            <div id="top">
+            </div>
+            <div class="divider">
+                <p id="page-title">ITINATAMPOK</p>
+                <p class="sub">MGA PRODUKTONG PABORITO AT ESPESYAL NA NAGMULA SA MGA IBA'T IBANG 
+                    DAKO NG PILIPINAS.
+                </p>
+            </div>
+            <div style="display:flex; justify-content: center; padding: 10px;">
+                <div id="categories">  
+                </div>
+                <div id="contents">
+                    <div class="content-title">
+                        <p class="main-title">LOKAL</p>
+                        <p class="sub-title">PRODUKTONG LIHANG BAYAN, TAMPOK BAYAN, PARA SA BAYAN</p>
+                    </div>
+                    <div class="content-products">
+                        <div class="products">
+                            <img src="images/image_c60216da-d33f-42ad-abb6-9259dbabb2a7_1024x1024.jpg" class="product-image">
+                            <p class="product-name">ABANIKO</p>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                        <div class="products">
+                            <img src="images/1593744718633.jpg" class="product-image">
+                            <p class="product-name">BASKETS</p>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                        <div class="products">
+                            <img src="images/products.jpg" class="product-image">
+                            <p class="product-name">TOTE BAGS</p>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="content-title">
+                        <p class="main-title">RESIKLO</p>
+                        <p class="sub-title">TAPON NG TAO LIKHANG TAO, PARA SA TAO AT PARA SA KALIKASAN </p>
+                    </div>
+                    <div class="content-products">
+                        <div class="products">
+                            <img src="images/ascscscCSCscSC.jpg" class="product-image">
+                            <p class="product-name">PLASTIC FRUIT STAND</p>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                        <div class="products">
+                            <img src="images/3dc7ccfe45e422e3db34a9b07b63e255.jpg" class="product-image">
+                            <p class="product-name">PLASTIC VASE</p>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                        <div class="products">
+                            <img src="images/sass.jpg" class="product-image">
+                            <p class="product-name">PLASTIC TOTE BAGS</p>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                    <div class="content-title">
+                        <p class="main-title">GAWANG KAMAY</p>
+                        <p class="sub-title">LIKHANG BISIG AT PAG-IBIG, PANG TAO MULA SA TAO. </p>
+                    </div>
+                    <div class="content-products">
+                        <div class="products">
+                            <img src="images/unicef-market.jpg" class="product-image">
+                            <p class="product-name">CROCHET</p>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                        <div class="products">
+                            <img src="images/gifts-giving-back-update-5.jpg" class="product-image">
+                            <p class="product-name">HAT</p>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                        <div class="products">
+                            <img src="images/toms-dia-de-los-muertos-leather-wrap.jpg" class="product-image">
+                            <p class="product-name">SHOES</p>
+                            <button class="btn">ADD TO CART</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript">
+            $(document).ready(function(){
+            $("#categories").load("sidebar.html"); 
+            });
+            $(document).ready(function(){
+            $("#top").load("header.html"); 
+            });
+        </script>
+    </body>
+</html>
